@@ -1,0 +1,107 @@
+body{
+    margin:20px;
+    background-color: #F5F5DC;
+    color: rgb(133, 47, 47);
+}
+h1{
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 3px rgb(21, 2, 231);
+    text-align: center;
+    font-family:cursive;
+    color:red;
+    font-size: 3em;
+    transition:transform 0.3s ease;
+}
+h1:hover{
+    transform:scale(1.1);
+}
+a{
+    color: skyblue;
+    text-decoration:none;
+    /* text-shadow:2px 2px 3px rgb(107, 18, 80) ; */
+}
+.img2{
+    border-radius: 50%;
+    border: 2px solid rgb(255, 0, 0);
+    transition: transform 0.3s ease;
+}
+.img2:hover{
+    transform:scale(.9);
+}
+h2{
+    color: rgb(43, 15, 222);
+    text-indent: 10px;
+    text-shadow: 2px 2px 3px rgb(231, 170, 2);
+    transition: transform 0.3s ease;
+    }
+.gaurav{
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(171, 24, 24);
+    font-size: 2em;
+    text-shadow: 2px 2px 3px rgb(2, 231, 90);
+    transform: transform 0.3s ease;
+}
+.gaurav:hover{
+    transform: scale(.9);
+}
+.skills img {
+    margin:2px;
+    transition: transform 0.3s ease;
+}
+.skills img:hover {
+    transform: scale(1.1);
+}
+.social-links a {
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.social-links a:hover {
+    transform: scale(1.1);
+}
+footer img{
+    margin:7px;
+    transition: transform 0.3s ease;
+}
+footer img:hover{
+    transform:scale(1.1);
+}
+.quote img{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 7px;
+    transition:transform 0.3s ease;
+}
+.quote img:hover{
+    transform:scale(1.04);
+}
+h3{
+    color:blueviolet;
+    
+}
+ul{
+    color:lightseagreen;
+}
+dl{
+    color: rgb(255, 251, 0);
+}
+label{
+    color: rgba(255, 30, 0, 0.604);
+}
+div>p{
+    color: rgb(10, 242, 99);
+    background: #c40808;
+}
+/* . is used for class */
+.class1{
+    color: rgb(255, 0, 0);
+    background: #000;
+}
+/* # is used for id */
+#id1{
+    color: rgb(0, 255, 0);
+    background: #007;
+}
